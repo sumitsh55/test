@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void interpretResponse(OWService owService) {
         owService.getResponse("Vancouver", BuildConfig.OPEN_WEATHER_MAP_API_KEY).enqueue(new RetrofitCallback());
-        owService.createUser("",new )
+        owService.createUser("",new );
     }
 }
